@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e0938ae.css",
+    "main.js": "/static/js/main.c21b7a8a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Suraj-yadav-image.png": "/static/media/Suraj-yadav-image.d99e737dac840682a45b.png",
+    "index.html": "/index.html",
+    "main.7e0938ae.css.map": "/static/css/main.7e0938ae.css.map",
+    "main.c21b7a8a.js.map": "/static/js/main.c21b7a8a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e0938ae.css",
+    "static/js/main.c21b7a8a.js"
+  ]
+}
