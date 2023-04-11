@@ -18,7 +18,7 @@ const projectsArray = [
 ];
 export default function Projects() {
   return (
-    <Box py={["0px", "60px", "80px"]} id="project">
+    <Box py={["0px", "10px", "30px"]} id="project">
       <Center pb="30px" textAlign="center">
         <Heading color="#B0BEC5">Projects</Heading>
       </Center>
