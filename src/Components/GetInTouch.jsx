@@ -26,7 +26,7 @@ import {
 
 export default function GetInTouch() {
   return (
-    <Box id="contact" py={["0px", "10px", "30px"]}>
+    <Box id="contact" pb={["20px", "50px", "100px"]}>
       <Center>
         {" "}
         <Heading color="#B0BEC5" mb={3}>
@@ -135,7 +135,15 @@ export default function GetInTouch() {
                 _focus={{ boxShadow: "none" }}
               />
             </InputGroup>
-            <Button type="submit" width={"100%"} mt={2}>
+            <Button
+              type="submit"
+              width={"100%"}
+              mt={2}
+              bg={"transparent"}
+              _hover={{
+                color: "#fff",
+                background: "#4299e1",
+              }}>
               Send Message
             </Button>
           </form>

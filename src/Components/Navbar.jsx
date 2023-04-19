@@ -9,13 +9,14 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import Resume from "../Resume/Suraj-Yadav-Resume.pdf";
 
 const Links = [
-  { title: "Home", href: "#home" },
-  { title: "About", href: "#about" },
-  { title: "Skills", href: "#skills" },
-  { title: "Project", href: "#project" },
-  { title: "Contact", href: "#contact" },
+  { title: "Home", href: "#home", classs: "nav-link home" },
+  { title: "About", href: "#about", classs: "nav-link about" },
+  { title: "Skills", href: "#skills", classs: "nav-link skills" },
+  { title: "Project", href: "#projects", classs: "nav-link projects" },
+  { title: "Contact", href: "#contact", classs: "nav-link contact" },
 ];
 
 export default function Simple() {
@@ -24,6 +25,7 @@ export default function Simple() {
   return (
     <>
       <Box
+        id="nav-menu"
         bg={"#1f1f1f"}
         px={4}
         position={"fixed"}
@@ -46,7 +48,7 @@ export default function Simple() {
               as={"nav"}
               spacing={4}
               display={{ base: "none", md: "flex" }}>
-              {Links.map(({ title, href }) => (
+              {Links.map(({ title, classs, href }) => (
                 <Link
                   px={2}
                   fontSize={"20px"}
@@ -57,19 +59,26 @@ export default function Simple() {
                     textDecoration: "none",
                     color: "#4299E1",
                   }}
-                  href={href}>
+                  href={href}
+                  className={classs}>
                   {title}
                 </Link>
               ))}
-              <Button
-                borderRadius={"3%"}
-                bg={"blue.400"}
-                color={"white"}
-                _hover={{
-                  bg: "blue.500",
-                }}>
-                Resume
-              </Button>
+              <Link
+                className="nav-link resume"
+                href={Resume}
+                download
+                target="_blank">
+                <Button
+                  borderRadius={"3%"}
+                  bg={"blue.400"}
+                  color={"white"}
+                  _hover={{
+                    bg: "blue.500",
+                  }}>
+                  Resume
+                </Button>
+              </Link>
             </HStack>
           </HStack>
         </Flex>

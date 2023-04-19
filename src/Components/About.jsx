@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <Box py="80px" id="about">
+    <Box py="80px" id="about" className="about section">
       <Center pb="30px">
         <Heading color={"#B0BEC5"}>All About Me</Heading>
       </Center>
@@ -25,9 +25,9 @@ export default function About() {
           </Text>
         </Box>
         <Box>
-          <Text px="20px" color="#fff">
-            Enthusiastic and aspiring full-stack developer. Open minded <br />{" "}
-            and problem solver, with a keen interest in emerging tech and
+          <Text px="20px" color="#fff" id="user-detail-intro">
+            Enthusiastic and aspiring full-stack Tech web developer. Open minded{" "}
+            <br /> and problem solver, with a keen interest in emerging tech and
             <br />
             building creativity. Looking forward to a challenging work
             <br />

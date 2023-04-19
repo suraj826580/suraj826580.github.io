@@ -7,7 +7,7 @@ export default function GitHubStat() {
       <Center pb="30px">
         <Heading color="#B0BEC5">GITHUB STATISTICS</Heading>
       </Center>
-      <Box>
+      <Box> 
         <Flex
           justifyContent={"center"}
           alignItems="center"
@@ -23,6 +23,7 @@ export default function GitHubStat() {
           </p>
           <p>
             <img
+              id="github-stats-card"
               align="center"
               src="https://github-readme-streak-stats.herokuapp.com/?user=suraj826580&"
               alt="suraj826580"

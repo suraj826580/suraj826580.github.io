@@ -10,6 +10,7 @@ import GetInTouch from "./Components/GetInTouch";
 import { useEffect, useState } from "react";
 import { Design } from "./Components/Design";
 import Loader from "./Components/Loader";
+import Socials from "./Components/Socials";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -31,7 +32,8 @@ function App() {
       <GitHubStat />
       <Projects />
       <GetInTouch />
-      <Design />;
+      <Design />
+      <Socials />
     </>
   );
 }
