@@ -8,11 +8,18 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
+import Resume from "../Resume/Suraj-Yadav-Resume.pdf";
 import TypeWritter from "./TypeWritter";
+
+import logo from "../Images/Suraj-Yadav-green-image.jpg";
 
 export default function Home() {
   return (
-    <Stack minH={"100vh"} direction={{ base: "column", md: "row" }} id="home">
+    <Stack
+      minH={"100vh"}
+      direction={{ base: "column", md: "row" }}
+      id="home"
+      py={["40px", "60px", "80px"]}>
       <Flex p={8} flex={1} align={"center"} justify={"center"}>
         <Stack spacing={4} w={"full"} maxW={"xl"}>
           <Heading fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}>
@@ -36,31 +43,47 @@ export default function Home() {
             mind who enjoys solving problems and working on new projects.
           </Text>
           <Stack direction={{ base: "column", md: "row" }} spacing={4}>
-            <Link
-              href="https://drive.google.com/file/d/1F-chHUIyXD5TjjS0jFB53nE0-DS4NlqU/view?usp=share_link"
-              target="_blank">
-              <Button
-                rounded={"full"}
-                bg={"blue.400"}
-                color={"white"}
+            <Button
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1F-chHUIyXD5TjjS0jFB53nE0-DS4NlqU/view?usp=share_link"
+                );
+              }}
+              id="resume-button-2"
+              rounded={"full"}
+              bg={"blue.400"}
+              color={"white"}
+              _hover={{
+                bg: "blue.500",
+              }}>
+              <Link
+                href={Resume}
+                download
+                target="_blank"
+                id="resume-link-2"
                 _hover={{
-                  bg: "blue.500",
+                  textDecoration: "none",
                 }}>
-                Resume
-              </Button>
-            </Link>
+                Download Resume
+              </Link>
+            </Button>
           </Stack>
         </Stack>
       </Flex>
       <Flex flex={1} justifyContent={"center"} alignItems={"center"}>
-        <Image
-          objectFit={"cover"}
-          h={["250px", "350px", "500px"]}
-          src={
-            "https://abdenassar-portfolio-4smfcqph6-abdenassaramimi99-gmailcom.vercel.app/static/media/illistration.1f485184.png"
-          }
-          borderRadius={"5%"}
-        />
+        <Box width={"400px"}>
+          <Image
+            className="home-img"
+            width={"100%"}
+            p={["20px", "", ""]}
+            borderRadius={"50%"}
+            objectFit={"cover"}
+            // src={
+            //   "https://abdenassar-portfolio-4smfcqph6-abdenassaramimi99-gmailcom.vercel.app/static/media/illistration.1f485184.png"
+            // }
+            src={logo}
+          />
+        </Box>
       </Flex>
     </Stack>
   );

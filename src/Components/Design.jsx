@@ -50,7 +50,7 @@ export const Design = () => {
             },
             links: {
               color: "#ffffff",
-              distance: 120,
+              distance: 100,
               enable: true,
               opacity: 0.5,
               width: 1,
@@ -65,13 +65,13 @@ export const Design = () => {
                 default: "bounce",
               },
               random: false,
-              speed: 1,
+              speed: 0.5,
               straight: false,
             },
             number: {
               density: {
                 enable: true,
-                area: 800,
+                area: 600,
               },
               value: 80,
             },
@@ -79,7 +79,7 @@ export const Design = () => {
               value: 0.1,
             },
             shape: {
-              type: "circle",
+              type: "square",
             },
             size: {
               value: { min: 1, max: 5 },

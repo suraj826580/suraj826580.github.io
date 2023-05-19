@@ -40,14 +40,18 @@ export default function GetInTouch() {
               boxSize="15px"
               children={<FontAwesomeIcon icon={faPhoneVolume} />}
             />
-            <Text color={"#fff"}>+91- 8265807053</Text>
+            <Text color={"#fff"} id="contact-phone">
+              +91- 8265807053
+            </Text>
           </HStack>
           <HStack>
             <TagLeftIcon
               boxSize="15px"
               children={<FontAwesomeIcon icon={faEnvelope} />}
             />
-            <Text color={"#fff"}>surajyadav8265@gmail.com</Text>
+            <Text color={"#fff"} id="contact-email">
+              surajyadav8265@gmail.com
+            </Text>
           </HStack>
           <HStack>
             <TagLeftIcon
@@ -57,8 +61,10 @@ export default function GetInTouch() {
             <Text color={"#fff"}>Aligarh, Uttar Pradesh</Text>
           </HStack>
           <HStack spacing={4}>
-            <Box width={"30px"}>
-              <Link href="https://www.linkedin.com/in/suraj-yadav-068230246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhMdwOESkSPK0nlZmlU5Gvw%3D%3D">
+            <Box width={"30px"} id="contact-linkedin">
+              <Link
+                href="https://www.linkedin.com/in/suraj-yadav-068230246?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhMdwOESkSPK0nlZmlU5Gvw%3D%3D"
+                target="_blank">
                 <Image
                   width={"100%"}
                   src="https://cdn-icons-png.flaticon.com/512/2504/2504923.png"
@@ -66,8 +72,8 @@ export default function GetInTouch() {
                 />
               </Link>
             </Box>
-            <Box width={"30px"}>
-              <Link href="https://github.com/suraj826580">
+            <Box width={"30px"} id="contact-github">
+              <Link href="https://github.com/suraj826580" target="_blank">
                 <Image
                   width={"100%"}
                   src="https://cdn-icons-png.flaticon.com/512/270/270798.png"
@@ -95,6 +101,7 @@ export default function GetInTouch() {
                 children={<FontAwesomeIcon icon={faEnvelope} />}
               />
               <Input
+                id="contact-email"
                 name="email"
                 type="email"
                 color="#B0BEC5"
@@ -110,6 +117,7 @@ export default function GetInTouch() {
                 children={<FontAwesomeIcon icon={faPhoneVolume} />}
               />
               <Input
+                id="contact-phone"
                 color="#B0BEC5"
                 name="number"
                 type="number"

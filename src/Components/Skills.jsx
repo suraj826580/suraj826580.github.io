@@ -75,8 +75,9 @@ export default function Skills() {
         <Heading color="#B0BEC5">Technologies and Tools</Heading>
       </Center>
       <Grid
+        className="skills-card"
         p={["4%", "0%", "0%", "0%"]}
-        w={["100%", "80%", "70%", "65%"]}
+        w={["100%", "80%", "85%", "65%"]}
         gridTemplateColumns={[
           "repeat(2,1fr)",
           "repeat(3,1fr)",
@@ -93,8 +94,9 @@ export default function Skills() {
               style={{
                 boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
               }}>
-              <Link href={link}>
+              <Link href={link} target="_blank">
                 <Image
+                  className="skills-card-img"
                   src={icon}
                   w="100%"
                   transition="all .1s ease-in-out"
@@ -105,8 +107,9 @@ export default function Skills() {
                 />
               </Link>
               <Text
+                className="skills-card-name"
                 textAlign={"center"}
-                fontSize={["15px", "20px", "25px", "25px"]}
+                fontSize={["15px", "20px", "20px", "25px"]}
                 color="#fff">
                 {title}
               </Text>

@@ -13,7 +13,12 @@ const socials = [
 ];
 export default function Socials() {
   return (
-    <Stack spacing={5} position={"fixed"} bottom={7} left={6}>
+    <Stack
+      spacing={5}
+      position={"fixed"}
+      bottom={7}
+      left={6}
+      visibility={["hidden", "hidden", "visible"]}>
       {socials.map((s) => {
         return (
           <Box
