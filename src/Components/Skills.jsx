@@ -77,7 +77,7 @@ export default function Skills() {
       <Grid
         className="skills-card"
         p={["4%", "0%", "0%", "0%"]}
-        w={["100%", "80%", "85%", "65%"]}
+        w={["100%", "80%", "85%", "80%", "65%"]}
         gridTemplateColumns={[
           "repeat(2,1fr)",
           "repeat(3,1fr)",
@@ -89,6 +89,7 @@ export default function Skills() {
         {skill.map(({ icon, title, link }) => {
           return (
             <GridItem
+              key={Math.random()}
               padding={"35px"}
               overflow="hidden"
               style={{

@@ -3,9 +3,11 @@ import React from "react";
 
 export default function GitHubStat() {
   return (
-    <Box py={["20px"]} px={["20px", "60px", "80px"]}>
+    <Box py={["5px"]} px={["20px", "60px", "80px"]}>
       <Center pb="30px">
-        <Heading color="#B0BEC5">GITHUB STATISTICS</Heading>
+        <Heading fontSize={["20px", "25px", "30px", "35px"]} color="#B0BEC5">
+          GITHUB STATISTICS
+        </Heading>
       </Center>
       <Box>
         <Flex

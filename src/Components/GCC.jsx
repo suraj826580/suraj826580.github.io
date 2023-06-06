@@ -6,7 +6,9 @@ export default function GCC() {
   return (
     <Box textAlign="center">
       <Center>
-        <Heading  color="#B0BEC5">GITHUB CONTRIBUTION CALENDER</Heading>
+        <Heading color="#B0BEC5" fontSize={["20px", "25px", "30px", "35px"]}>
+          GITHUB CONTRIBUTION CALENDER
+        </Heading>
       </Center>
       <Box>
         <Center m={["20px", "30px", "50px"]}>

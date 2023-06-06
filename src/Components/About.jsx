@@ -15,8 +15,9 @@ export default function About() {
         width={"80%"}>
         {/* <Box> */}
         <Text
+          w={["100%", "80%", "80%", "40%"]}
           // px={["10px", "7px", "2px"]}
-          textAlign={["left", "left", "right", "right"]}
+          textAlign={["left", "left", "left", "right"]}
           fontSize={["22px", "25px", "35px"]}
           lineHeight="1.13em"
           fontWeight={"bold"}
@@ -37,7 +38,7 @@ export default function About() {
           color="#fff"
           id="user-detail-intro"
           // border={"1px solid"}
-          w={["90%", "80%", "80%", "40%"]}>
+          w={["100%", "80%", "80%", "40%"]}>
           Passionate Full-Stack Web Developer with strong design and problem-
           solving skills. A highly disciplined and motivated person having
           proficiency in a wide range of front-end and back-end skills like

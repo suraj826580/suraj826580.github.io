@@ -162,16 +162,20 @@ export default function Projects() {
                     />
                   </Link>
                   <Heading
+                    fontSize={["18px", "20px", "22px", "25px"]}
                     className="project-title"
                     display={"inline-block"}
                     color="#B0BEC5"
                     borderBottom={"4px solid #B0BEC5"}
-                    fontSize={"22px"}
                     letterSpacing={1}
-                    paddingTop={5}>
+                    paddingTop={[2, 3, 4, 5]}>
                     {title}
                   </Heading>
-                  <Text color="#B0BEC5" className="project-description">
+                  <Text
+                    paddingTop={[2, 3, 4, 5]}
+                    color="#B0BEC5"
+                    className="project-description"
+                    fontSize={["14px", "15px", "16px", "17px"]}>
                     {description}
                   </Text>
                   <Flex gap={2} className="project-tech-stack">
@@ -193,12 +197,14 @@ export default function Projects() {
                     })}
                   </Flex>
                   <Box>
-                    <HStack>
+                    <HStack pb={3}>
                       <Link
                         href={github}
                         target="_blank"
                         className="project-github-link">
-                        <Button leftIcon={<FontAwesomeIcon icon={faGithub} />}>
+                        <Button
+                          size={["sm", "sm", "md", "md"]}
+                          leftIcon={<FontAwesomeIcon icon={faGithub} />}>
                           Github
                         </Button>
                       </Link>
@@ -207,6 +213,7 @@ export default function Projects() {
                         target="_blank"
                         className="project-deployed-link">
                         <Button
+                          size={["sm", "sm", "md", "md"]}
                           colorScheme="twitter"
                           leftIcon={<FontAwesomeIcon icon={faLifeRing} />}>
                           Live

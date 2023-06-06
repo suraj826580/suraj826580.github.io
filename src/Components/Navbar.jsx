@@ -38,6 +38,10 @@ export default function Simple() {
           alignItems={"center"}
           justifyContent={["right", "right", "center"]}>
           <IconButton
+            _hover={{
+              bg: "transparent",
+            }}
+            bg={"#1f1f1f"}
             size={"md"}
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             aria-label={"Open Menu"}
@@ -138,7 +142,7 @@ export default function Simple() {
               borderRadius={0}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1F-chHUIyXD5TjjS0jFB53nE0-DS4NlqU/view?usp=share_link"
+                  "https://drive.google.com/file/d/14gIM2RBxRrELxsRkN9O6gj9NJcDEQaWf/view?usp=share_link"
                 );
               }}
               id="resume-button-1"
