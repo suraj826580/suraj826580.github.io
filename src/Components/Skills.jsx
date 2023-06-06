@@ -9,6 +9,7 @@ import {
   Heading,
   Box,
 } from "@chakra-ui/react";
+import Flip from "react-reveal/Flip";
 
 const skill = [
   {
@@ -27,17 +28,17 @@ const skill = [
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+    icon: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
     title: "React",
     link: "https://react.dev",
   },
   {
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+    icon: "https://cdn.worldvectorlogo.com/logos/redux.svg",
     title: "Redux",
     link: "https://redux.js.org/",
   },
   {
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    icon: "https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png",
     title: "Typescript",
     link: "https://www.typescriptlang.org/",
   },
@@ -52,7 +53,7 @@ const skill = [
     link: "https://nodejs.org/en",
   },
   {
-    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+    icon: "https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg",
     title: "Express",
     link: "https://expressjs.com/",
   },
@@ -77,7 +78,7 @@ export default function Skills() {
       <Grid
         className="skills-card"
         p={["4%", "0%", "0%", "0%"]}
-        w={["100%", "80%", "85%", "80%", "65%"]}
+        w={["100%", "80%", "85%", "80%", "70%"]}
         gridTemplateColumns={[
           "repeat(2,1fr)",
           "repeat(3,1fr)",
@@ -88,33 +89,36 @@ export default function Skills() {
         margin={"auto"}>
         {skill.map(({ icon, title, link }) => {
           return (
-            <GridItem
-              key={Math.random()}
-              padding={"35px"}
-              overflow="hidden"
-              style={{
-                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-              }}>
-              <Link href={link} target="_blank">
-                <Image
-                  className="skills-card-img"
-                  src={icon}
-                  w="100%"
-                  transition="all .1s ease-in-out"
-                  _hover={{
-                    transform: "scale(1.1)",
-                  }}
-                  borderRadius="10%"
-                />
-              </Link>
-              <Text
-                className="skills-card-name"
-                textAlign={"center"}
-                fontSize={["15px", "20px", "20px", "25px"]}
-                color="#fff">
-                {title}
-              </Text>
-            </GridItem>
+            <Flip left>
+              <GridItem
+                key={Math.random()}
+                padding={"35px"}
+                overflow="hidden"
+                style={{
+                  boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+                }}>
+                <Link href={link} target="_blank">
+                  <Image
+                    margin="auto"
+                    className="skills-card-img"
+                    src={icon}
+                    w="80%"
+                    transition="all .1s ease-in-out"
+                    _hover={{
+                      transform: "scale(1.1)",
+                    }}
+                    borderRadius="10%"
+                  />
+                </Link>
+                <Text
+                  className="skills-card-name"
+                  textAlign={"center"}
+                  fontSize={["md", "lg", "lg", "xl"]}
+                  color="#fff">
+                  {title}
+                </Text>
+              </GridItem>
+            </Flip>
           );
         })}
       </Grid>
