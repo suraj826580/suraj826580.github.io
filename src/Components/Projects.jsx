@@ -30,8 +30,7 @@ const projectsArray = [
       "Tata 1mg is an online healthcare platform that offers a wide range of healthcare products and services, including medicines, diagnostic tests, doctor consultations, and wellness products, to customers in India.",
     techStack: [
       {
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
         link: "https://react.dev",
       },
       {
@@ -40,8 +39,7 @@ const projectsArray = [
         link: "https://chakra-ui.com",
       },
       {
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/redux.svg",
         link: "https://redux.js.org",
       },
       {
@@ -60,8 +58,7 @@ const projectsArray = [
       "This is my portfolio which I  made using React, JavaScript, CSS and Chakra UI. This is a not private repository.",
     techStack: [
       {
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
         link: "https://react.dev",
       },
       {
@@ -86,8 +83,7 @@ const projectsArray = [
       "Licious.com is an Indian online food delivery platform that offers a range of high-quality meat, seafood, and poultry products sourced directly from local farms and fishermen, delivered conveniently to customers' doorsteps.",
     techStack: [
       {
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
         link: "https://react.dev",
       },
       {

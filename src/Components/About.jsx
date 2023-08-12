@@ -39,11 +39,12 @@ export default function About() {
           id="user-detail-intro"
           // border={"1px solid"}
           w={["100%", "80%", "80%", "40%"]}>
-          Passionate Full-Stack Web Developer with strong design and problem-
-          solving skills. A highly disciplined and motivated person having
-          proficiency in a wide range of front-end and back-end skills like
-          HTML, CSS, Node, JavaScript, React,Redux etc. Looking forward to
-          launching a career as a React developer.
+          Passionate Full-Stack Web Developer with robust design and
+          problem-solving skills. I am a highly disciplined and motivated
+          individual with proficiency in a wide array of front-end and back-end
+          technologies, including HTML, CSS, Node.js, JavaScript, React, and
+          Redux. I am eagerly looking forward to launching a career as a React
+          developer.
         </Text>
         {/* </Box> */}
       </Flex>

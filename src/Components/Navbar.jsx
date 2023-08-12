@@ -142,7 +142,7 @@ export default function Simple() {
               borderRadius={0}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/14gIM2RBxRrELxsRkN9O6gj9NJcDEQaWf/view?usp=share_link"
+                  "https://drive.google.com/file/d/14gIM2RBxRrELxsRkN9O6gj9NJcDEQaWf/view?usp=sharing"
                 );
               }}
               id="resume-button-1"
