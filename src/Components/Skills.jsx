@@ -67,6 +67,11 @@ const skill = [
     title: "Git",
     link: "https://git-scm.com/",
   },
+  {
+    icon: "https://cdn.worldvectorlogo.com/logos/aws-2.svg",
+    title: "AWS",
+    link: "https://docs.aws.amazon.com/",
+  },
 ];
 
 export default function Skills() {
@@ -83,6 +88,7 @@ export default function Skills() {
           "repeat(2,1fr)",
           "repeat(3,1fr)",
           "repeat(4,1fr)",
+          "repeat(3,1fr)",
           "repeat(5,1fr)",
         ]}
         gap={4}
@@ -102,7 +108,10 @@ export default function Skills() {
                     margin="auto"
                     className="skills-card-img"
                     src={icon}
+                    objectFit={["scale-down", "", "scale-down", "", "scale-down"]}
                     w="80%"
+                    minHeight={["", "", "90px", "", "120px"]}
+                    maxHeight={["", "", "90px", "", "120px"]}
                     transition="all .1s ease-in-out"
                     _hover={{
                       transform: "scale(1.1)",

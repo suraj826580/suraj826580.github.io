@@ -11,7 +11,6 @@ import {
 import Flip from "react-reveal/Flip";
 import Resume from "../Resume/Suraj-Yadav-Resume.pdf";
 import TypeWritter from "./TypeWritter";
-
 import logo from "../Images/Suraj-Yadav-green-image.jpg";
 
 export default function Home() {
