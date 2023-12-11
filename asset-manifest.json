@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bba21a4a.css",
-    "main.js": "/static/js/main.982f4130.js",
+    "main.css": "/static/css/main.c298b039.css",
+    "main.js": "/static/js/main.fe7e2d14.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/licious.png": "/static/media/licious.8ddef5560bc15abf1089.png",
     "static/media/TATA_1mg.png": "/static/media/TATA_1mg.5caeb93448d6348e145f.png",
@@ -10,12 +10,12 @@
     "static/media/Suraj-Yadav-Resume.pdf": "/static/media/Suraj-Yadav-Resume.98ec8e164f924cac197e.pdf",
     "static/media/MailChimp.png": "/static/media/MailChimp.2c5f77120b205b1f959b.png",
     "index.html": "/index.html",
-    "main.bba21a4a.css.map": "/static/css/main.bba21a4a.css.map",
-    "main.982f4130.js.map": "/static/js/main.982f4130.js.map",
+    "main.c298b039.css.map": "/static/css/main.c298b039.css.map",
+    "main.fe7e2d14.js.map": "/static/js/main.fe7e2d14.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bba21a4a.css",
-    "static/js/main.982f4130.js"
+    "static/css/main.c298b039.css",
+    "static/js/main.fe7e2d14.js"
   ]
 }
