@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.c298b039.css",
-    "main.js": "/static/js/main.c495c42e.js",
+    "main.js": "/static/js/main.2267b28b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/licious.png": "/static/media/licious.8ddef5560bc15abf1089.png",
     "static/media/TATA_1mg.png": "/static/media/TATA_1mg.5caeb93448d6348e145f.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.adcaa704629412252445.png",
     "static/media/Suraj-Yadav-green-image.jpg": "/static/media/Suraj-Yadav-green-image.1315cc157eda107010f2.jpg",
-    "static/media/Suraj-Yadav-Resume.pdf": "/static/media/Suraj-Yadav-Resume.5bd34cc5476021b9624f.pdf",
+    "static/media/Suraj-Yadav-Resume-New.pdf": "/static/media/Suraj-Yadav-Resume-New.99b50e5512ecc1a35004.pdf",
     "static/media/blogApp.png": "/static/media/blogApp.73b09e1a6bd035c4d158.png",
     "static/media/MailChimp.png": "/static/media/MailChimp.2c5f77120b205b1f959b.png",
     "index.html": "/index.html",
     "main.c298b039.css.map": "/static/css/main.c298b039.css.map",
-    "main.c495c42e.js.map": "/static/js/main.c495c42e.js.map",
+    "main.2267b28b.js.map": "/static/js/main.2267b28b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c298b039.css",
-    "static/js/main.c495c42e.js"
+    "static/js/main.2267b28b.js"
   ]
 }
