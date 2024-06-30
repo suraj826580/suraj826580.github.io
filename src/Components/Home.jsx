@@ -9,7 +9,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import Flip from "react-reveal/Flip";
-import Resume from "../Resume/Suraj-Yadav-Resume.pdf";
+import Resume from "../Resume/Suraj-Yadav-Resume-New.pdf";
 import TypeWritter from "./TypeWritter";
 import logo from "../Images/Suraj-Yadav-green-image.jpg";
 

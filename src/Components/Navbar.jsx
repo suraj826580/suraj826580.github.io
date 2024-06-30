@@ -9,7 +9,7 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
-import Resume from "../Resume/Suraj-Yadav-Resume.pdf";
+import Resume from "../Resume/Suraj-Yadav-Resume-New.pdf";
 
 // const Links = [
 //   { title: "Home", href: "#home", classs: "nav-link home" },
