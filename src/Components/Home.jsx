@@ -47,7 +47,7 @@ export default function Home() {
               <Button
                 onClick={() => {
                   window.open(
-                    "https://drive.google.com/file/d/16L2vxa_3gtfPC5HeL45A8hlpH4SP_ZjS/view?usp=sharing"
+                    "https://drive.google.com/file/d/14gIM2RBxRrELxsRkN9O6gj9NJcDEQaWf/view?usp=sharing"
                   );
                 }}
                 id="resume-button-2"

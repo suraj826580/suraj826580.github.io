@@ -7,7 +7,6 @@ import {
   Button,
   useDisclosure,
   Stack,
-  Text,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import Resume from "../Resume/Suraj-Yadav-Resume.pdf";
@@ -142,7 +141,7 @@ export default function Simple() {
               borderRadius={0}
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/16L2vxa_3gtfPC5HeL45A8hlpH4SP_ZjS/view?usp=sharing"
+                  "https://drive.google.com/file/d/14gIM2RBxRrELxsRkN9O6gj9NJcDEQaWf/view?usp=sharing"
                 );
               }}
               id="resume-button-1"
